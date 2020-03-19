@@ -1,189 +1,471 @@
-Province/State	Country/Region		Indbyggere
-	Afghanistan		53530000
-	Albania		2877000
-	Algeria		41310000
-	Andorra		76965
-	Antigua and Barbuda		102012
-	Argentina		44270000
-	Armenia		2973000
-	Aruba		105264
-	Australia		24600000
-	Austria		8822000
-	Azerbaijan		9898000
-	Barbados		285719
-	Bahrain		1493000
-	Bangladesh		164700000
-	Belarus		9508000
-	Belgium		11400000
-	Benin		11180000
-	Bhutan		807610
-	Bolivia		11050000
-	Bosnia and Herzegovina		3507000
-	Brazil		209300000
-	Brunei		428697
-	Bulgaria		7050000
-	Burkina Faso		19190000
-	Cambodia		16010000
-	Cameroon		24050000
-	Canada		37590000
-	Central African Republic		4659000
-	Chile		18050000
-Hubei	China		58500000
-Guangdong	China		110000000
-Henan	China		94000000
-Zhejiang	China		57370000
-Hunan	China		67370000
-Anhui	China		62000000
-Jiangxi	China		45200000
-Shandong	China		91800000
-Jiangsu	China		80400000
-Chongqing	China		81100000
-Sichuan	China		81100000
-Heilongjiang	China		38310000
-Beijing	China		21540000
-Shanghai	China		24240000
-Hebei	China		74700000
-Fujian	China		38560000
-Guangxi	China		48380000
-Shaanxi	China		37330000
-Yunnan	China		45970000
-Hainan	China		9258000
-Guizhou	China		34750000
-Tianjin	China		15000000
-Shanxi	China		36500000
-Gansu	China		25580000
-Hong Kong	China		7392000
-Liaoning	China		43900000
-Jilin	China		27300000
-Xinjiang	China		21810000
-Inner Mongolia	China		24710000
-Ningxia	China		6301000
-Qinghai	China		5627000
-Macau	China		622567
-Tibet	China		3180000
-	Colombia		49070000
-	Congo		81340000
-	Costa Rica		4906000
-	Cote d'Ivoire		24290000
-	Croatia		4076000
-Diamond Princess	Cruise Ship		2670
-	Cuba		11480000
-	Cyprus		1170000
-	Czechia		10650000
-Denmark	Denmark		5603000
-	Dominican Republic		10770000
-	Ecuador		16620000
-	Egypt		97550000
-	Equatorial Guinea		1268000
-	Estonia		1318000
-	Eswatini		1367000
-	Ethiopia		105000000
-	Finland		5513000
-France	France		66990000
-	French Guiana		290961
-	Gabon		2025000
-	Georgia		3717000
-	Germany		82790000
-	Ghana		28830000
-	Greece		10740000
-	Greenland		56171
-	Guadeloupe		395799
-	Guam		164229
-	Guatemala		16910000
-	Guernsey		65849
-	Guinea		12720000
-	Guyana		777859
-	Holy See		1000
-	Honduras		9265000
-	Hungary		9773000
-	Iceland		364260
-	India		1339000000
-	Indonesia		264000000
-	Iran		81160000
-	Iraq		38270000
-	Ireland		4830000
-	Israel		8712000
-	Italy		60480000
-	Jamaica		2980000
-	Japan		126800000
-	Jersey		97857
-	Jordan		9702000
-	Kazakhstan		18040000
-	Kenya		49700000
-	Korea, South		51470000
-	Kosovo		1831000
-	Kuwait		4137000
-	Latvia		1920000
-	Lebanon		6082000
-	Liberia		4732000
-	Liechtenstein		38557
-	Lithuania		2794000
-	Luxembourg		602005
-	Malaysia		31620000
-	Maldives		436330
-	Malta		493993
-	Martinique		376480
-	Mauritania		4420000
-	Mayotte		270372
-	Mexico		129200000
-	Moldova		3550000
-	Monaco		38695
-	Mongolia		3076000
-	Morocco		35740000
-	Namibia		2534000
-	Nepal		29300000
-Netherlands	Netherlands		17180000
-	New Zealand		4794000
-	Nigeria		190900000
-	North Macedonia		2077000
-	Norway		5368000
-	occupied Palestinian territory		5052000
-	Oman		4636000
-	Pakistan		197000000
-	Panama		4099000
-	Paraguay		6811000
-	Peru		32170000
-	Philippines		104900000
-	Poland		37980000
-	Portugal		10290000
-	Puerto Rico		3195000
-	Qatar		2639000
-	Republic of the Congo		81340000
-	Reunion		859959
-	Romania		19530000
-	Russia		144500000
-	Rwanda		12210000
-	Saint Lucia		178844
-	Saint Vincent and the Grenadines		109897
-	San Marino		33400
-	Saudi Arabia		32940000
-	Senegal		15850000
-	Serbia		7022000
-	Seychelles		95843
-	Singapore		5612000
-	Slovakia		5450000
-	Slovenia		2067000
-	Somalia		14740000
-	South Africa		56720000
-	Spain		46660000
-	Sri Lanka		21440000
-	Sudan		40530000
-	Suriname		563402
-	Sweden		10120000
-	Switzerland		8570000
-	Taiwan*		23780000
-	Tanzania		57310000
-	Thailand		69040000
-	The Bahamas		395361
-	Togo		7798000
-	Trinidad and Tobago		1369000
-	Tunisia		11530000
-	Turkey		80810000
-	Ukraine		42220000
-	United Arab Emirates		9400000
-	United Kingdom		66440000
-	Uruguay		3457000
-All states	US		327200000
-	Uzbekistan		32390000
-	Venezuela		31980000
-	Vietnam		95540000
+Province/State	Country/Region			Indbyggere
+	Afghanistan			53530000
+	Albania			2877000
+	Algeria			41310000
+	Andorra			76965
+	Antigua and Barbuda			102012
+	Argentina			44270000
+	Armenia			2973000
+	Aruba			105264
+	Australia			24600000
+	Austria			8822000
+	Azerbaijan			9898000
+	Barbados			285719
+	Bahrain			1493000
+	Bangladesh			164700000
+	Belarus			9508000
+	Belgium			11400000
+	Benin			11180000
+	Bhutan			807610
+	Bolivia			11050000
+	Bosnia and Herzegovina			3507000
+	Brazil			209300000
+	Brunei			428697
+	Bulgaria			7050000
+	Burkina Faso			19190000
+	Cambodia			16010000
+	Cameroon			24050000
+	Canada			37590000
+	Central African Republic			4659000
+	Chile			18050000
+Hubei	China			58500000
+Guangdong	China			110000000
+Henan	China			94000000
+Zhejiang	China			57370000
+Hunan	China			67370000
+Anhui	China			62000000
+Jiangxi	China			45200000
+Shandong	China			91800000
+Jiangsu	China			80400000
+Chongqing	China			81100000
+Sichuan	China			81100000
+Heilongjiang	China			38310000
+Beijing	China			21540000
+Shanghai	China			24240000
+Hebei	China			74700000
+Fujian	China			38560000
+Guangxi	China			48380000
+Shaanxi	China			37330000
+Yunnan	China			45970000
+Hainan	China			9258000
+Guizhou	China			34750000
+Tianjin	China			15000000
+Shanxi	China			36500000
+Gansu	China			25580000
+Hong Kong	China			7392000
+Liaoning	China			43900000
+Jilin	China			27300000
+Xinjiang	China			21810000
+Inner Mongolia	China			24710000
+Ningxia	China			6301000
+Qinghai	China			5627000
+Macau	China			622567
+Tibet	China			3180000
+	Colombia			49070000
+	Congo			81340000
+	Costa Rica			4906000
+	Cote d'Ivoire			24290000
+	Croatia			4076000
+Diamond Princess	Cruise Ship			2670
+	Cuba			11480000
+	Cyprus			1170000
+	Czechia			10650000
+Denmark	Denmark			5603000
+	Dominican Republic			10770000
+	Ecuador			16620000
+	Egypt			97550000
+	Equatorial Guinea			1268000
+	Estonia			1318000
+	Eswatini			1367000
+	Ethiopia			105000000
+	Finland			5513000
+France	France			66990000
+	French Guiana			290961
+	Gabon			2025000
+	Georgia			3717000
+	Germany			82790000
+	Ghana			28830000
+	Greece			10740000
+	Greenland			56171
+	Guadeloupe			395799
+	Guam			164229
+	Guatemala			16910000
+	Guernsey			65849
+	Guinea			12720000
+	Guyana			777859
+	Holy See			1000
+	Honduras			9265000
+	Hungary			9773000
+	Iceland			364260
+	India			1339000000
+	Indonesia			264000000
+	Iran			81160000
+	Iraq			38270000
+	Ireland			4830000
+	Israel			8712000
+	Italy			60480000
+	Jamaica			2980000
+	Japan			126800000
+	Jersey			97857
+	Jordan			9702000
+	Kazakhstan			18040000
+	Kenya			49700000
+	Korea, South			51470000
+	Kosovo			1831000
+	Kuwait			4137000
+	Latvia			1920000
+	Lebanon			6082000
+	Liberia			4732000
+	Liechtenstein			38557
+	Lithuania			2794000
+	Luxembourg			602005
+	Malaysia			31620000
+	Maldives			436330
+	Malta			493993
+	Martinique			376480
+	Mauritania			4420000
+	Mayotte			270372
+	Mexico			129200000
+	Moldova			3550000
+	Monaco			38695
+	Mongolia			3076000
+	Morocco			35740000
+	Namibia			2534000
+	Nepal			29300000
+Netherlands	Netherlands			17180000
+	New Zealand			4794000
+	Nigeria			190900000
+	North Macedonia			2077000
+	Norway			5368000
+	occupied Palestinian territory			5052000
+	Oman			4636000
+	Pakistan			197000000
+	Panama			4099000
+	Paraguay			6811000
+	Peru			32170000
+	Philippines			104900000
+	Poland			37980000
+	Portugal			10290000
+	Puerto Rico			3195000
+	Qatar			2639000
+	Republic of the Congo			81340000
+	Reunion			859959
+	Romania			19530000
+	Russia			144500000
+	Rwanda			12210000
+	Saint Lucia			178844
+	Saint Vincent and the Grenadines			109897
+	San Marino			33400
+	Saudi Arabia			32940000
+	Senegal			15850000
+	Serbia			7022000
+	Seychelles			95843
+	Singapore			5612000
+	Slovakia			5450000
+	Slovenia			2067000
+	Somalia			14740000
+	South Africa			56720000
+	Spain			46660000
+	Sri Lanka			21440000
+	Sudan			40530000
+	Suriname			563402
+	Sweden			10120000
+	Switzerland			8570000
+	Taiwan*			23780000
+	Tanzania			57310000
+	Thailand			69040000
+	The Bahamas			395361
+	Togo			7798000
+	Trinidad and Tobago			1369000
+	Tunisia			11530000
+	Turkey			80810000
+	Ukraine			42220000
+	United Arab Emirates			9400000
+	United Kingdom			66440000
+	Uruguay			3457000
+All states	US			327200000
+	Uzbekistan			32390000
+	Venezuela			31980000
+	Vietnam			95540000
+Kitsap, WA	US			266440
+Solano, CA	US			445418
+Santa Cruz, CA	US			204856
+Napa, CA	US			79779
+Ventura, CA	US			110750
+Worcester, MA	US			185877
+Gwinnett, GA	US			920266
+DeKalb, GA	US			43197
+Floyd, GA	US			97600
+Fayette, GA	US			112549
+Gregg, TX	US			123319
+Monmouth, NJ	US			626611
+Burlington, NJ	US			41312
+Camden, NJ	US			510717
+Passaic, NJ	US			512788
+Union, NJ	US			70387
+Eagle, CO	US			54772
+Larimer, CO	US			343791
+Arapahoe, CO	US			643092
+Gunnison, CO	US			16943
+Kane, IL	US			534178
+Monroe, PA	US			747343
+Philadelphia, PA	US			1581000
+Norfolk, VA	US			64044
+Arlington, VA	US			234965
+Spotsylvania, VA	US			133033
+Loudoun, VA	US			398009
+Prince George's, MD	US			912034
+Pottawattamie, IA	US			93383
+Camden, NC	US			510719
+Pima, AZ	US			1023000
+Noble, IN	US			47452
+Adams, IN	US			451443
+Boone, IN	US			130728
+Dane, WI	US			536416
+Pierce, WI	US			876665
+Cuyahoga, OH	US			1249000
+Weber, UT	US			251789
+Bennington County, VT	US			35954
+Carver County, MN	US			102119
+Charlotte County, FL	US			183033
+Cherokee County, GA	US			247573
+Collin County, TX	US			969696
+Jefferson County, KY	US			574234
+Jefferson Parish, LA	US			439036
+Shasta County, CA	US			179923
+Spartanburg County, SC	US			306546
+Harrison County, KY	US			205027
+Johnson County, IA	US			591778
+Berkshire County, MA	US			126313
+Davidson County, TN	US			691242
+Douglas County, OR	US			335891
+Fresno County, CA	US			989255
+Harford County, MD	US			252160
+Hendricks County, IN	US			163363
+Hudson County, NJ	US			691643
+Johnson County, KS	US			591418
+Kittitas County, WA	US			46205
+Manatee County, FL	US			385571
+Marion County, OR	US			354313
+Okaloosa County, FL	US			202970
+Polk County, GA	US			686232
+Riverside County, CA	US			2423000
+Shelby County, TN	US			936355
+St. Louis County, MO	US			996722
+Suffolk County, NY	US			1493000
+Ulster County, NY	US			179417
+Volusia County, FL	US			538893
+Fairfax County, VA	US			1148000
+Rockingham County, NH	US			90949
+Washington, D.C.	US			623000
+Montgomery County, PA	US			1059000
+Alameda County, CA	US			1663000
+Broward County, FL	US			1936000
+Lee County, FL	US			739223
+Pinal County, AZ	US			430237
+Rockland County, NY	US			328339
+Saratoga County, NY	US			230000
+Charleston County, SC	US			410243
+Clark County, WA	US			474948
+Cobb County, GA	US			755738
+Davis County, UT	US			348000
+El Paso County, CO	US			699232
+Honolulu County, HI	US			988650
+Jackson County, OR	US			217418
+Jefferson County, WA	US			574327
+Kershaw County, SC	US			65036
+Klamath County, OR	US			67000
+Madera County, CA	US			156890
+Pierce County, WA	US			876929
+Tulsa County, OK	US			646266
+Douglas County, CO	US			335299
+Providence County, RI	US			637339
+Chatham County, NC	US			290501
+Delaware County, PA	US			564282
+Douglas County, NE	US			335443
+Fayette County, KY	US			321595
+Marion County, IN	US			354545
+Middlesex County, MA	US			842739
+Nassau County, NY	US			1370000
+Ramsey County, MN	US			547284
+Washoe County, NV	US			460587
+Wayne County, PA	US			1754000
+Yolo County, CA	US			219116
+Santa Clara County, CA	US			1938000
+Clark County, NV	US			2204000
+Fort Bend County, TX	US			764282
+Grant County, WA	US			95184
+Santa Rosa County, FL	US			174727
+Williamson County, TN	US			226738
+New York County, NY	US			8623000
+Montgomery County, MD	US			1059000
+Suffolk County, MA	US			778569
+Denver County, CO	US			620000
+Summit County, CO	US			30585
+Bergen County, NJ	US			948440
+Harris County, TX	US			4653000
+San Francisco County, CA	US			884383
+Contra Costa County, CA	US			1147000
+Orange County, CA	US			3190000
+Norfolk County, MA	US			903383
+Maricopa County, AZ	US			4307000
+Wake County, NC	US			1072000
+Westchester County, NY	US			980244
+Grafton County, NH	US			89389
+Hillsborough, FL	US			1409000
+Placer County, CA	US			386166
+San Mateo, CA	US			104787
+Sonoma County, CA	US			504772
+Umatilla, OR	US			7132
+Fulton County, GA	US			1041000
+Washington County, OR	US			588947
+Snohomish County, WA	US			801633
+Humboldt County, CA	US			136737
+Sacramento County, CA	US			1531000
+San Diego County, CA	US			3338000
+San Benito, CA	US			60310
+Los Angeles, CA	US			4000000
+King County, WA	US			2189000
+Cook County, IL	US			5211000
+Skagit, WA	US			125619
+Thurston, WA	US			280855
+Island, WA	US			83159
+Whatcom, WA	US			221404
+Marin, CA	US			260955
+Calaveras, CA	US			45677
+Stanislaus, CA	US			547988
+San Joaquin, CA	US			4023
+Essex, MA	US			3504
+Charlton, GA	US			12715
+Collier, FL	US			372880
+Pinellas, FL	US			970637
+Alachua, FL	US			9982
+Nassau, FL	US			82717
+Pasco, FL	US			525643
+Dallas, TX	US			1341000
+Tarrant, TX	US			2054000
+Montgomery, TX	US			970
+Middlesex, NJ	US			13867
+Jefferson, CO	US			574613
+Multnomah, OR	US			807555
+Polk, OR	US			4646
+Deschutes, OR	US			186837
+McHenry, IL	US			26911
+Lake, IL	US			703520
+Bucks, PA	US			628341
+Hanover, VA	US			252
+Lancaster, SC	US			8976
+Sullivan, TN	US			157158
+Johnson, IN	US			153198
+Howard, IN	US			82363
+St. Joseph, IN	US			270434
+Knox, NE	US			8472
+Stark, OH	US			372542
+Anoka, MN	US			17522
+Olmsted, MN	US			154930
+Summit, UT	US			160
+Fairfield, CT	US			62105
+Litchfield, CT	US			1251
+Orleans, LA	US			393292
+Pennington, SD	US			110414
+Beadle, SD	US			18157
+Charles Mix, SD	US			9428
+Davison, SD	US			19704
+Minnehaha, SD	US			188616
+Bon Homme, SD	US			6984
+Socorro, NM	US			8440
+Bernalillo, NM	US			9638
+Oakland, MI	US			1251000
+Wayne, MI	US			16947
+New Castle, DE	US			5348
+British Columbia	Canada			5071000
+New South Wales	Australia			7544000
+Victoria	Australia			6359000
+Queensland	Australia			5071000
+South Australia	Australia			1677000
+				
+Western Australia	Australia			2589000
+Tasmania	Australia			515000
+Northern Territory	Australia			211945
+Ontario	Canada			14570000
+Alberta	Canada			4371000
+Quebec	Canada			542298
+Washington	US			7539000
+New York	US			8623000
+California	US			39560000
+Massachusetts	US			6902000
+				
+				
+Georgia	US			10520000
+Colorado	US			5696000
+Florida	US			21300000
+New Jersey	US			8909000
+Oregon	US			4191000
+Texas	US			28700000
+Illinois	US			740000
+Pennsylvania	US			12810000
+Iowa	US			3156000
+Maryland	US			6043000
+North Carolina	US			10380000
+South Carolina	US			5084000
+Tennessee	US			6770000
+Virginia	US			8518000
+Arizona	US			7172000
+Indiana	US			6692000
+Kentucky	US			4468000
+District of Columbia	US			633427
+Nevada	US			3034000
+New Hampshire	US			1356000
+Minnesota	US			5611000
+Nebraska	US			1929000
+Ohio	US			11690000
+Rhode Island	US			1057000
+Wisconsin	US			5814000
+Connecticut	US			3573000
+Hawaii	US			1420000
+Oklahoma	US			3943000
+Utah	US			3161000
+Kansas	US			2912000
+Louisiana	US			4660000
+Missouri	US			6126000
+Vermont	US			626299
+Alaska	US			737438
+Arkansas	US			3014000
+Delaware	US			967171
+Idaho	US			1754000
+Maine	US			1338000
+Michigan	US			9996000
+Mississippi	US			2987000
+Montana	US			1062000
+New Mexico	US			2095000
+North Dakota	US			760077
+South Dakota	US			882235
+West Virginia	US			1806000
+Wyoming	US			577737
+				
+Faroe Islands	Denmark			49290
+St Martin	France			32125
+Channel Islands	United Kingdom			170499
+New Brunswick	Canada			776827
+Saint Barthelemy	France			9131
+Gibraltar	United Kingdom			34571
+Australian Capital Territory	Australia			418440
+French Polynesia	France			283007
+Manitoba	Canada			1369000
+Saskatchewan	Canada			1174000
+Grand Princess	Canada			2590
+Alabama	US			4888000
+Puerto Rico	US			3195000
+French Guiana	France			290691
+Guam	US			164229
+Newfoundland and Labrador	Canada			521542
+Prince Edward Island	Canada			156942
+Mayotte	France			270327
+Nova Scotia	Canada			971328
+Guadeloupe	France			448869
+Curacao	Netherlands			160000
+Virgin Islands	US			107268
+Cayman Islands	United Kingdom			61559
+Reunion	France			859959
+Aruba	Netherlands			105264
+Montserrat	United Kingdom			5900
